@@ -17,6 +17,7 @@ body {
 	background-color: #0D0D2B;
 	color: white;
 	margin-top: -99px;
+	z-index: -1;
 }
 
 .jumbotron .col-lg {
@@ -24,7 +25,7 @@ body {
 }
 
 .jumbotron .illus1 img {
-	margin-top: -280px;
+	margin-top: -210px;
 }
 
 .jumbotron .blackfriday {
@@ -42,6 +43,12 @@ body {
 	margin-left: -279px;
 	font-weight: 500;
 	font-size: 12px;
+}
+
+.jumbotron .discount a {
+	margin-left: -25px;
+	margin-right: -17px;
+	border-radius: 32px;
 }
 
 .jumbotron	.display-4 {
@@ -74,7 +81,48 @@ body {
 	position: absolute;
 	top: 600px;
 	left: -110px;
+	z-index: -0.5;
 }
+
+/* Container */
+.part1	{
+	position: relative;
+	background-color: #0D0D2B;
+	z-index: 999;
+	color: white;
+}
+
+	/* Data */
+.data {
+	padding-top: 100px;
+	padding-left: 70px;
+}
+
+.data .person {
+	
+}
+
+.data .earth {
+	
+}
+
+.data img {
+	margin-right: 20px;
+}
+
+.data h5 {
+	margin-bottom: 5px;
+	margin-top: 8px;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.data p {
+	font-weight: 200;
+	font-size: 16px;
+}
+
+
 
 /* Utility */
 .tombol {
@@ -135,14 +183,14 @@ body {
 		color: black;
 		padding: 4px 16px;
 		border-radius: 32px;
-		margin-left: -279px;
+		margin-left: -350px;
 		font-weight: 500;
 		font-size: 16px;
 	}
 
-	.jumbotron .discount a{
-		margin-left: -7px;
-		margin-right: 1px;
+	.jumbotron .discount a {
+		margin-left: -23px;
+		margin-right: -15px;
 		border-radius: 32px;
 	}
 
@@ -177,9 +225,42 @@ body {
 	}
 
 	.decor1 {
-		top: 400px;
-		left: 490px;
+		top: 450px;
+		left: 424px;
+		margin
 	}
+
+
+	/* Data */
+	.data {
+		padding-top: 100px;
+		padding-left: 0;
+	}
+
+	.data .person {
+		margin-left: 65px;
+	}
+
+	.data .earth {
+		margin-left: 60px;
+	}
+
+	.data img {
+		margin-right: 20px;
+	}
+
+	.data h5 {
+		margin-bottom: 5px;
+		margin-top: 8px;
+		font-size: 40px;
+		font-weight: 600;
+	}
+
+	.data p {
+		font-weight: 200;
+		font-size: 16px;
+	}
+
 
 	/* Utility */
 	.tombol {
