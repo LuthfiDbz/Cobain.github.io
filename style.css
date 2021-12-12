@@ -1,0 +1,176 @@
+body {
+	font-family: Rubik;
+}
+
+/* Navbar */
+.navbar {
+	position: relative;
+	background-color: #252540;
+}
+
+.nav-link {
+	color: white !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+	background-color: #0D0D2B;
+	color: white;
+	margin-top: -99px;
+}
+
+.jumbotron .col-lg {
+	margin-top: 210px;
+}
+
+.jumbotron .illus1 img {
+	margin-top: -280px;
+}
+
+.jumbotron .blackfriday {
+	background-color: #252540;
+	padding: 6px 10px 6px 105px;
+	border-radius: 32px;
+	font-size: 12px;
+}
+
+.jumbotron .discount {
+	background-color: white;
+	color: black;
+	padding: 4px 16px;
+	border-radius: 32px;
+	margin-left: -279px;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.jumbotron	.display-4 {
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 65px;
+	margin-top: 25px;
+}
+
+.jumbotron .lead {
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 28px;
+}
+
+.jumbotron a {
+	font-weight: 500;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+.jumbotron a img {
+	margin-left: 20px;
+	margin-right: -25px;
+	width: 28px;
+	height: 28px;
+}
+
+/* Utility */
+.tombol {
+	color: white;
+	border-radius: 32px;
+	padding: 8px 32px;
+	font-weight: 500;
+}
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+	.navbar {
+		position: relative;
+		padding-top: 40px;
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	.nav-link {
+		margin-right: 30px;
+		font-size: 16px;
+		font-family: Rubik;
+		font-weight: 400;
+		margin-top: 6px;
+		color: white !important;
+	}
+
+	.login {
+		margin-left: 25px;
+		font-weight: 500;
+		
+	}
+
+	.login::after {
+		content: '';
+		display: block;
+		border-right: 1px solid #F2F2F2;
+		height: 85%;
+		margin-right: -20px;
+		margin-top: -24px;
+		opacity: 0.4;
+	}
+
+	.jumbotron .blackfriday {
+		background-color: #252540;
+		padding: 6px 10px 6px 120px;
+		border-radius: 32px;
+		font-size: 16px;
+	}
+
+	.jumbotron .discount {
+		background-color: white;
+		color: black;
+		padding: 4px 0px;
+		border-radius: 32px;
+		margin-left: -348px;
+		font-weight: 500;
+		font-size: 16px;
+	}
+
+	.jumbotron .discount a{
+		margin-left: -7px;
+		margin-right: 1px;
+		border-radius: 32px;
+	}
+
+	.jumbotron	.display-4 {
+		font-size: 62px;
+		font-weight: 500;
+		line-height: 65px;
+		margin-top: 25px;
+	}
+
+	.jumbotron .lead {
+		font-size: 16px;
+		margin-top: 20px;
+		line-height: 28px;
+	}
+
+	.jumbotron a {
+		font-weight: 500;
+		font-size: 16px;
+		padding-left: 20px;
+		font-size: 16px;
+	}
+
+	.jumbotron a img {
+		margin-right: -20px;
+		width: 32px;
+		height: 32px;
+	}
+
+	.jumbotron .illus1 img {
+		margin-top: -80px;
+	}
+
+	/* Utility */
+	.tombol {
+		color: white;
+		border-radius: 32px;
+		padding: 12px 32px;
+		font-weight: 500;
+	}
+}
