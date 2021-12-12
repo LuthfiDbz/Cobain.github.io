@@ -70,6 +70,12 @@ body {
 	height: 28px;
 }
 
+.decor1 {
+	position: absolute;
+	top: 600px;
+	left: -110px;
+}
+
 /* Utility */
 .tombol {
 	color: white;
@@ -113,6 +119,10 @@ body {
 		opacity: 0.4;
 	}
 
+	.jumbotron {
+		height: 768px;
+	}
+
 	.jumbotron .blackfriday {
 		background-color: #252540;
 		padding: 6px 10px 6px 120px;
@@ -123,9 +133,9 @@ body {
 	.jumbotron .discount {
 		background-color: white;
 		color: black;
-		padding: 4px 0px;
+		padding: 4px 16px;
 		border-radius: 32px;
-		margin-left: -348px;
+		margin-left: -279px;
 		font-weight: 500;
 		font-size: 16px;
 	}
@@ -164,6 +174,11 @@ body {
 
 	.jumbotron .illus1 img {
 		margin-top: -80px;
+	}
+
+	.decor1 {
+		top: 400px;
+		left: 490px;
 	}
 
 	/* Utility */
