@@ -53,7 +53,7 @@ body {
 
 .jumbotron	.display-4 {
 	font-size: 50px;
-	font-weight: 500;
+	font-weight: 500 !important;
 	line-height: 65px;
 	margin-top: 25px;
 }
@@ -98,14 +98,6 @@ body {
 	padding-left: 70px;
 }
 
-.data .person {
-	
-}
-
-.data .earth {
-	
-}
-
 .data img {
 	margin-right: 20px;
 }
@@ -122,7 +114,32 @@ body {
 	font-size: 16px;
 }
 
+/* Why */
+.why {
+	padding-top: 105px;
+	padding-bottom: 550px;
+}
 
+.why .img-fluid {
+	width: 610px;
+}
+
+.why h2 {
+	margin-top: 80px;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.why p {
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 25px;
+}
+
+.why a {
+	margin-top: 10;
+	padding: 12px 18px;
+}
 
 /* Utility */
 .tombol {
@@ -203,7 +220,7 @@ body {
 
 	.jumbotron .lead {
 		font-size: 16px;
-		margin-top: 20px;
+		margin-top: 30px;
 		line-height: 28px;
 	}
 
@@ -212,6 +229,7 @@ body {
 		font-size: 16px;
 		padding-left: 20px;
 		font-size: 16px;
+		margin-top: 10px;
 	}
 
 	.jumbotron a img {
@@ -229,7 +247,6 @@ body {
 		left: 424px;
 		margin
 	}
-
 
 	/* Data */
 	.data {
@@ -260,7 +277,6 @@ body {
 		font-weight: 200;
 		font-size: 16px;
 	}
-
 
 	/* Utility */
 	.tombol {
