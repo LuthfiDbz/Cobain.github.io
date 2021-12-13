@@ -116,7 +116,7 @@ body {
 
 /* Why */
 .why {
-	padding-top: 105px;
+	padding-top: 10px;
 	padding-bottom: 550px;
 }
 
@@ -126,12 +126,12 @@ body {
 
 .why h2 {
 	margin-top: 80px;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 500;
 }
 
 .why p {
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 28px;
 	margin-top: 25px;
 }
@@ -139,6 +139,10 @@ body {
 .why a {
 	margin-top: 10;
 	padding: 12px 18px;
+}
+
+.why .content {
+	text-align: center;
 }
 
 /* Utility */
@@ -276,6 +280,23 @@ body {
 	.data p {
 		font-weight: 200;
 		font-size: 16px;
+	}
+
+	/* Why */
+	.why {
+		padding-top: 105px;
+	}
+
+	.why h2 {
+		font-size: 40px;
+	}
+
+	.why p {
+		font-size: 16px;
+	}
+
+	.why .content {
+		text-align: left;
 	}
 
 	/* Utility */
