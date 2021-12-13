@@ -145,6 +145,31 @@ body {
 	text-align: center;
 }
 
+/*Crypto*/
+.crypto .display-4 {
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.crypto .lead {
+	font-size: 18px;
+}
+
+.calculator {
+	margin-top: 20px;
+}
+
+.crypto .form-control {
+	margin-right:
+}
+
+.crypto .form-select, .form-control {
+	border: none;
+	border-bottom: 1px solid #ACACAC;
+	border-radius: 0;
+}
+
 /* Utility */
 .tombol {
 	color: white;
