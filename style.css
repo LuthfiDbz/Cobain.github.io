@@ -88,7 +88,7 @@ body {
 .part1	{
 	position: relative;
 	background-color: #0D0D2B;
-	z-index: 999;
+	z-index: -0.6;
 	color: white;
 }
 
@@ -117,7 +117,7 @@ body {
 /* Why */
 .why {
 	padding-top: 10px;
-	padding-bottom: 550px;
+	padding-bottom: 500px;
 }
 
 .why .img-fluid {
@@ -146,18 +146,31 @@ body {
 }
 
 /*Crypto*/
+
+.crypto {
+	position: relative;
+	margin-top: -310px;
+	z-index: 1;
+}
+
 .crypto .display-4 {
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 500;
 	margin-bottom: 20px;
+	color: white;
 }
 
 .crypto .lead {
-	font-size: 18px;
+	font-size: 15px;
+	color: white;
 }
 
 .calculator {
-	margin-top: 20px;
+	margin-top: 30px;
+	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+	border-radius: 16px;
+	background-color: white;
+	padding: 30px;
 }
 
 .crypto .form-control {
@@ -168,6 +181,34 @@ body {
 	border: none;
 	border-bottom: 1px solid #ACACAC;
 	border-radius: 0;
+	margin-top: 7px;
+}
+
+.crypto .tombol {
+	margin-top: 15px;
+}
+
+.crypto .estimated h5 {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #0d6efd;
+	margin-top: 80px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.crypto .estimated h2 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.estimated span {
+	color: #0d6efd;
+}
+
+.crypto .estimated p {
+	font-size: 14px;
+	color: #828282;
 }
 
 /* Utility */
@@ -274,7 +315,6 @@ body {
 	.decor1 {
 		top: 450px;
 		left: 424px;
-		margin
 	}
 
 	/* Data */
@@ -323,6 +363,39 @@ body {
 	.why .content {
 		text-align: left;
 	}
+
+	/* Crypto */
+	.crypto {
+		margin-top: -285px;
+	}
+
+	.crypto .display-4 {
+		font-size: 40px;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+
+	.crypto .lead {
+		font-size: 18px;
+	}
+
+	.crypto .tombol {
+		margin-top: 0;
+	}
+	.crypto .estimated h5 {
+		font-size: 16px;
+		text-transform: uppercase;
+		margin-top: 100px;
+		margin-bottom: 20px;
+	}
+
+	.crypto .estimated h2 {
+		font-size: 32px;
+	}
+	.crypto .estimated p {
+		font-size: 16px;
+	}
+
 
 	/* Utility */
 	.tombol {
