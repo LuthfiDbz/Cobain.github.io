@@ -148,12 +148,15 @@ body {
 /*Crypto*/
 
 .crypto {
-	position: relative;
 	margin-top: -310px;
-	z-index: 1;
+	background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
 }
 
-.crypto .display-4 {
+.crypto .hashrate {
+	position: relative;
+}
+
+.crypto .hashrate .display-4 {
 	font-size: 30px;
 	font-weight: 500;
 	margin-bottom: 20px;
@@ -173,9 +176,6 @@ body {
 	padding: 30px;
 }
 
-.crypto .form-control {
-	margin-right:
-}
 
 .crypto .form-select, .form-control {
 	border: none;
@@ -209,6 +209,60 @@ body {
 .crypto .estimated p {
 	font-size: 14px;
 	color: #828282;
+}
+
+.crypto .coin .display-4 {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 60px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.coin .container {
+	background-color: white;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+	padding: 50px 35px 38px;
+}
+
+.coin .bitcoin {
+	color: white;
+	background-color: purple;
+	padding-bottom: 50px;
+}
+
+.crypto .coin h3 {
+	margin-top: 55px;
+	margin-bottom: 20px;
+	font-size: 32;
+	font-size: 600;
+}
+
+.coin h3 span{
+	position: relative;
+	font-size: 16px;
+	font-weight: 500;
+	color: #BDBDBD;
+	top: -3px;
+}
+
+.crypto .coin p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+
+.bitcoin .tombol img {
+	padding-left: 20px;
+	padding-right: -10px;
+	margin-right: -20px;
+	margin-top: 0px !important;
+}
+
+.coin .container img {
+	margin-top: -8px;
 }
 
 /* Utility */
@@ -369,7 +423,7 @@ body {
 		margin-top: -285px;
 	}
 
-	.crypto .display-4 {
+	.crypto .hashrate .display-4 {
 		font-size: 40px;
 		font-weight: 500;
 		margin-bottom: 20px;

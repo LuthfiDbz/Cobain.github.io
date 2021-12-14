@@ -106,32 +106,65 @@
     <!-- End Container Part1 -->
 
     <!-- Crypto -->
-    <div class="row crypto justify-content-center">
-      <div class="col-8 Hashrate">
-        <div class="text-center">
-          <h2 class="display-4">Check how much you can earn</h2>
-          <p class="lead">Let's check your hash rate to see how much you will earn today,<br>Exercitation veniam consewuat sunt nostrud amet.</p>
-        </div>
-        <div class="row calculator">
-          <div class="col-lg">
-            <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Enter your hash rate">
+    <div class="crypto">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-10 hashrate">
+            <div class="text-center">
+              <h2 class="display-4">Check how much you can earn</h2>
+              <p class="lead">Let's check your hash rate to see how much you will earn today,<br>Exercitation veniam consewuat sunt nostrud amet.</p>
+            </div>
+            <div class="row calculator">
+              <div class="col-lg">
+                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Enter your hash rate">
+              </div>
+              <div class="col-lg-3">
+                <select class="col-1 form-select" id="inputGroupSelect01">
+                  <option selected>TH/s</option>
+                  <option value="1">BTC/s</option>
+                  <option value="2">LTC/s</option>
+                </select>
+              </div>
+              <div class="col-lg-2">
+                <a href="#" class="btn btn-primary tombol"> Calculate</a>
+              </div>
+              <div class="estimated">
+                <h5>Estimated 24 hour revenue:</h5>
+                <h2>0.055 130 59 ETH <span>
+                ($1275)</span></h2>
+                <p>Revenue will change based on mining difficulty and Ethereum price.</p>
+              </div>  
+            </div>
           </div>
-          <div class="col-lg-3">
-            <select class="col-1 form-select" id="inputGroupSelect01">
-              <option selected>TH/s</option>
-              <option value="1">BTC/s</option>
-              <option value="2">LTC/s</option>
-            </select>
+          <div class="container coin">
+            <h2 class="text-center display-4">Trade securely and market the high <br>growth cryptocurrencies.</h2>
+            <div class="row text-center">
+              <div class="col-lg">
+                <div class="container bitcoin">
+                  <img src="img/coin/BTC.png" alt="BTC">
+                  <h3>Bitcoin <span>BTC</span></h3>
+                  <p>Digital currency in which a record of transactions is maintained</p>
+                  <a href="#" class="btn btn-primary tombol">Start Mining <img src="img/icon/Arrow Right.png" alt=""></a>
+                </div>
+              </div>
+              <div class="col-lg">
+                <div class="container">
+                  <img src="img/coin/ETH.png" alt="ETH">
+                  <h3>Ethereum <span>ETH</span></h3>
+                  <p>Blockchain technology to create and run decentralized digital applications.</p>
+                  <a href="#" class="btn"><img src="img/icon/Arrow Right Lg.png" alt=""></a>
+                </div>
+              </div>
+              <div class="col-lg">
+                <div class="container">
+                  <img src="img/coin/LTC.png" alt="LTC">
+                  <h3>Litecoin <span>LTC</span></h3>
+                  <p>Cryptocurrency that enables instant payments to anyone in the world</p>
+                  <a href="#" class="btn"><img src="img/icon/Arrow Right Lg.png" alt=""></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2">
-            <a href="#" class="btn btn-primary tombol"> Calculate</a>
-          </div>
-          <div class="estimated">
-            <h5>Estimated 24 hour revenue:</h5>
-            <h2>0.055 130 59 ETH <span>
-            ($1275)</span></h2>
-            <p>Revenue will change based on mining difficulty and Ethereum price.</p>
-          </div>  
         </div>
       </div>
     </div>
