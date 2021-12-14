@@ -8,104 +8,16 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <title>CRAPPO</title>
+    <title>Hello, world!</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo.png" alt="Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="#">Products</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link login" href="#">Login</a>
-            <a class="btn btn-primary tombol" href="#">Register</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- End Navbar -->
-
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg">
-            <span class="blackfriday">For the Black Friday weekend</span>
-            <span class="discount"><a href="#" class="btn">75% SAVE</a></span>
-            <h1 class="display-4">Fastest & secure platform to invest in crypto</h1>
-            <p class="lead">Buy and sell cryptocurrencies, trusted by 10M wallets <br>with over $30 billion in transactions.</p>
-            <a class="btn btn-primary tombol" href="#" role="button">Try For FREE <img src="img/icon/Arrow Right.png" width="32" height="32" alt=""></a>
-          </div>
-          <div class="col-lg illus1">
-            <img src="img/illustration.png" class="img-fluid" alt="Illustration">
-          </div>
-        </div>
-        <div class="decor1">
-          <img src="img/[].png" alt="">
-        </div>
-      </div>    
-    </div>
-    <!-- End Jumbotron -->
-
-    <!-- Container Part1 -->
-    <div class="part1">
-      <div class="container">
-        
-        <!-- Data -->
-        <div class="row data">
-          <div class="col-lg">
-            <img src="img/icon/bar chart.png" class="float-start" alt="bar chat">
-            <h5>$30B</h5>
-            <p>Digital Currency Exchanged</p>
-          </div>
-          <div class="col-lg person">
-            <img src="img/icon/Person.png" class="float-start" alt="Person">
-            <h5>10M+</h5>
-            <p>Trusted Wallets Investor</p>
-          </div>
-          <div class="col-lg earth">
-            <img src="img/icon/Earth.png" class="float-start" alt="Earth">
-            <h5>195</h5>
-            <p>Countries Supported</p>
-          </div>
-        </div>
-        <!-- End Data -->
-
-        <!-- Why -->
-        <div class="row why">
-          <div class="col-lg-7">
-            <img src="img/illustrations.png" class="img-fluid" alt="Illustration">
-          </div>
-          <div class="col-lg content">
-            <h2>Why you should choose CRAPPO</h2>
-            <p class="lead">Experience the next generation cryptocurrency <br> platform. No financial borders. extra fees, and fake <br>reviews.</p>
-            <a href="#" class="btn btn-primary tombol">Learn More</a>
-          </div>
-        </div>
-        <!-- End Why -->
-
-      </div>
-    </div>
-    <!-- End Container Part1 -->
-
-    <!-- Crypto -->
+        <!-- Crypto -->
     <div class="crypto">
       <div class="container">
         <div class="row justify-content-center">
@@ -141,16 +53,16 @@
           <div class="col-lg coin">
             <h2 class="text-center display-4">Trade securely and market the high <br>growth cryptocurrencies.</h2>
             <div class="row text-center">
-              <div class="col-lg">
-                <div class="container bitcoin btn">
+              <div class="col-lg asu">
+                <div class="container bitcoin bitcoin-toggler btn type="button" data-bs-toggle="collapse" data-bs-target="#collapseP" aria-controls="#collapseP" aria-expanded="false">
                   <img src="img/coin/BTC.png" alt="BTC">
                   <h3>Bitcoin <span>BTC</span></h3>
-                  <p class="collapse-lg">Digital currency in which a record of transactions is maintained</p>
+                  <p class="collapse" id="collapseP">Digital currency in which a record of transactions is maintained</p>
                   <a href="#" class="btn btn-primary tombol">Start Mining <img src="img/icon/Arrow Right.png" alt=""></a>
                 </div>
               </div>
               <div class="col-lg">
-                <div class="container ethereum btn">
+                <div class="container">
                   <img src="img/coin/ETH.png" alt="ETH">
                   <h3>Ethereum <span>ETH</span></h3>
                   <p>Blockchain technology to create and run decentralized digital applications.</p>
@@ -158,7 +70,7 @@
                 </div>
               </div>
               <div class="col-lg">
-                <div class="container litecoin btn">
+                <div class="container">
                   <img src="img/coin/LTC.png" alt="LTC">
                   <h3>Litecoin <span>LTC</span></h3>
                   <p>Cryptocurrency that enables instant payments to anyone in the world</p>
@@ -171,6 +83,24 @@
       </div>
     </div>
     <!-- End Crypto -->
+
+    <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseP" aria-controls="#collapseP" aria-expanded="false">Klik disini
+    </button>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+<button data-toggle="collapse" data-target="#collapsible">Show/Hide</button>
+<div class="collapse in" id="collapsible">
+    Content Here.
+</div>
+<div class="visible-xs" id="xs-check"></div>
+
+
+
+
+
 
 
 
