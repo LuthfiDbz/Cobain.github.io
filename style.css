@@ -149,6 +149,7 @@ body {
 
 .crypto {
 	margin-top: -310px;
+	margin-bottom: 100px;
 	background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
 }
 
@@ -219,17 +220,17 @@ body {
 	margin-bottom: 50px;
 }
 
-
 .coin .container {
 	background-color: white;
 	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
 	border-radius: 16px;
 	padding: 50px 35px 38px;
+	margin-top: 30px;
 }
 
 .coin .bitcoin {
 	color: white;
-	background-color: purple;
+	background-color:#2B076E;
 	padding-bottom: 50px;
 }
 
@@ -262,8 +263,77 @@ body {
 	margin-top: 0px !important;
 }
 
+.ethereum:hover, .litecoin:hover {
+	background-color: #2B076E;
+	color: white;
+}
+
+.ethereum:hover a img {
+	background-color: #fff;
+	border-radius: 100px;
+}
+
+.litecoin:hover a img {
+	background-color: #fff;
+	border-radius: 100px;
+}
+
+
 .coin .container img {
 	margin-top: -8px;
+}
+
+/* Chart */
+.chart {
+	background-color: #2B076E;
+	color: white;
+}
+
+.chart h2 {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 60px;
+	padding-top: 80px;
+	margin-bottom: 80px;
+}
+
+.chart .statistic img {
+	position: relative;
+	left: -117px;
+}
+
+.statistic h3 {
+	margin-left: -50px;
+}
+
+.statistic p {
+	margin-left: -50px;
+}
+
+.statistic a {
+	margin-left: -50px;
+}
+
+.chart .market h3 {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.chart .market p {
+	font-size: 16px;
+	font-weight: 300;
+} 
+
+.chart .invest img {
+	margin-left: 10px;
+}
+
+.chart .profit img {
+	margin-left: 0px;
+}
+
+.invest, .statistic, .profit {
+	margin-top: 100px;
 }
 
 /* Utility */
@@ -451,6 +521,10 @@ body {
 		font-size: 16px;
 	}
 
+	.coin .container {
+		margin-top: 0px;
+	}
+
 
 	/* Utility */
 	.tombol {
@@ -458,11 +532,6 @@ body {
 		border-radius: 32px;
 		padding: 12px 32px;
 		font-weight: 500;
-	}
-
-	.ethereum:hover, .litecoin:hover {
-		background-color: purple;
-		color: white;
 	}
 
 }
