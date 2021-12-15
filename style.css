@@ -212,12 +212,20 @@ body {
 	color: #828282;
 }
 
+.coin {
+	padding: 40px;
+}
+
 .crypto .coin .display-4 {
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 600;
 	line-height: 60px;
 	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-bottom: 5px;
+}
+
+.coin .display-4 br {
+	display: none;
 }
 
 .coin .container {
@@ -278,7 +286,6 @@ body {
 	border-radius: 100px;
 }
 
-
 .coin .container img {
 	margin-top: -8px;
 }
@@ -287,14 +294,20 @@ body {
 .chart {
 	background-color: #2B076E;
 	color: white;
+	padding-bottom: 100px;
+	padding: 40px;
 }
 
 .chart h2 {
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 500;
 	line-height: 60px;
 	padding-top: 80px;
 	margin-bottom: 80px;
+}
+
+.chart h2 br {
+	display: none;
 }
 
 .chart .statistic img {
@@ -302,8 +315,29 @@ body {
 	left: -117px;
 }
 
+.chart .market h3 {
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+.chart .market p {
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 25px;
+} 
+
+.invest {
+	text-align: center;
+}
+
+.invest h3 {
+	margin-top: 300px;
+}
+
 .statistic h3 {
 	margin-left: -50px;
+	margin-top: 90px;
 }
 
 .statistic p {
@@ -314,18 +348,12 @@ body {
 	margin-left: -50px;
 }
 
-.chart .market h3 {
-	font-size: 28px;
-	font-weight: 500;
+.profit h3 {
+	margin-top: 20px;
 }
 
-.chart .market p {
-	font-size: 16px;
-	font-weight: 300;
-} 
-
 .chart .invest img {
-	margin-left: 10px;
+	margin-top: -700px;
 }
 
 .chart .profit img {
@@ -500,6 +528,16 @@ body {
 		margin-bottom: 20px;
 	}
 
+	.crypto .coin .display-4 {
+		font-size: 40px;
+		font-weight: 600;
+		margin-bottom: 50px;
+	}
+
+	.coin .display-4 br {
+		display: block;
+	}
+
 	.crypto .lead {
 		font-size: 18px;
 	}
@@ -517,12 +555,47 @@ body {
 	.crypto .estimated h2 {
 		font-size: 32px;
 	}
+
 	.crypto .estimated p {
 		font-size: 16px;
 	}
 
+	.coin {
+		padding: 0;
+	}
+
 	.coin .container {
 		margin-top: 0px;
+	}
+
+
+	/* Chart */
+	.chart {
+		padding: 0;
+		padding-bottom: 100px;	
+	}
+
+	.chart h2 {
+		font-size: 40px;
+		font-weight: 500;
+		margin-bottom: 80px;
+	}
+
+	.chart h2 br {
+		display: block;
+	}
+
+	.invest {
+		text-align: left;
+	}
+
+	.invest h3 {
+		margin-top: 50px;
+	}
+	
+	.chart .invest img {
+		margin-left: 10px;
+		margin-top: 0;
 	}
 
 
