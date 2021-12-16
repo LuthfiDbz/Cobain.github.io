@@ -149,7 +149,7 @@ body {
 
 .crypto {
 	margin-top: -310px;
-	margin-bottom: 100px;
+	padding-bottom: 50px;
 	background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
 }
 
@@ -364,6 +364,61 @@ body {
 	margin-top: 100px;
 }
 
+/* Subscribe */
+.subscribe {
+	background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+	color: white;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.subscribe .mining {
+	background-color: #3671E9;
+	border-radius: 18px;
+	padding: 60px 50px 40px;
+}
+
+.subscribe h3 {
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+.subscribe p {
+	font-weight: 300;
+}
+
+.subscribe .form-control {
+	width: 210px;
+	margin-left: 45px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ACACAC;
+	color: white;
+}
+
+.subscribe .form-control::placeholder {
+	color: white !important;
+	text-align: center;
+}
+
+.subscribe .form-control, .subscribe .tombol	{
+	margin-top: 30px;
+}
+
+.subscribe .form-control:focus {
+	background: none;
+}
+
+.subscribe .tombol {
+	color: black;
+}
+
+/* Footer */
+.footer	{
+	background-color: #0D0D2B;
+}
+
 /* Utility */
 .tombol {
 	color: white;
@@ -520,6 +575,7 @@ body {
 	/* Crypto */
 	.crypto {
 		margin-top: -285px;
+		padding-bottom: 100px;
 	}
 
 	.crypto .hashrate .display-4 {
@@ -596,6 +652,19 @@ body {
 	.chart .invest img {
 		margin-left: 10px;
 		margin-top: 0;
+	}
+
+	/* Subscribe */
+	.subscribe {
+		text-align: left;
+	}
+
+	.subscribe .form-control {
+		width: 355px;
+	}
+
+	.subscribe .form-control::placeholder {
+		text-align: left;
 	}
 
 
